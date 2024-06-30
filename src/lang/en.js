@@ -62,7 +62,10 @@ export default {
     clipboardDemo: 'Clipboard',
     i18n: 'I18n',
     externalLink: 'External Link',
-    profile: 'Profile'
+    profile: 'Profile',
+    productManagement: 'Product Management',
+    productList: 'Product List',
+    productTag: 'Product Tag'
   },
   navbar: {
     dashboard: 'Dashboard',
@@ -132,7 +135,30 @@ export default {
     draft: 'Draft',
     delete: 'Delete',
     cancel: 'Cancel',
-    confirm: 'Confirm'
+    confirm: 'Confirm',
+    name: 'Name',
+    createTime: 'CreateTime',
+    consultKind: 'ConsultKind',
+    describe: 'Describe',
+    price: 'Price',
+    saleable: 'Saleable',
+    yes: 'Yes',
+    no: 'No',
+    recommended: 'Recommended',
+    stock: 'Stock',
+    imageLink: 'ImageLink',
+    upgradeLink: 'UpgradeLink',
+    tags: 'Tags',
+    categories: 'Categories',
+    shelf: 'Shelf',
+    creator: 'Creator',
+    topping: 'Topping',
+    weight: 'Weight',
+    merchant: 'Merchant',
+    ordering: 'Ordering',
+    startTime: 'StartTime',
+    endTime: 'EndTime',
+    searchPlaceholder: 'Please enter keyword'
   },
   example: {
     warning: 'Creating and editing pages cannot be cached by keep-alive because keep-alive include does not currently support caching based on routes, so it is currently cached based on component name. If you want to achieve a similar caching effect, you can use a browser caching scheme such as localStorage. Or do not use keep-alive include to cache all pages directly. See details'

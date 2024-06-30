@@ -62,7 +62,10 @@ export default {
     clipboardDemo: 'Clipboard',
     i18n: '国际化',
     externalLink: '外链',
-    profile: '个人中心'
+    profile: '个人中心',
+    productManagement: '商品管理',
+    productList: '商品清单',
+    productTag: '商品标签'
   },
   navbar: {
     dashboard: '首页',
@@ -132,7 +135,30 @@ export default {
     draft: '草稿',
     delete: '删除',
     cancel: '取 消',
-    confirm: '确 定'
+    confirm: '确 定',
+    name: '名称',
+    createTime: '创建时间',
+    consultKind: '咨询类型',
+    describe: '描述',
+    price: '价格',
+    saleable: '是否上架',
+    yes: '是',
+    no: '否',
+    recommended: '是否推荐',
+    stock: '库存',
+    imageLink: '图片链接',
+    upgradeLink: '升级链接',
+    tags: '标签',
+    categories: '分类',
+    shelf: '上架位置',
+    creator: '创建人',
+    topping: '是否置顶',
+    weight: '权重',
+    merchant: '商家信息',
+    ordering: '请选择排序条件',
+    startTime: '开始时间',
+    endTime: '结束时间',
+    searchPlaceholder: '请输入关键字'
   },
   example: {
     warning: '创建和编辑页面是不能被 keep-alive 缓存的，因为keep-alive 的 include 目前不支持根据路由来缓存，所以目前都是基于 component name 来进行缓存的。如果你想类似的实现缓存效果，可以使用 localStorage 等浏览器缓存方案。或者不要使用 keep-alive 的 include，直接缓存所有页面。详情见'

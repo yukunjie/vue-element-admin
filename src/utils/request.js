@@ -5,9 +5,10 @@ import { getToken } from '@/utils/auth'
 
 // create an axios instance
 const service = axios.create({
-  baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
+  // baseURL: process.env.VUE_APP_BASE_API, // url = base url + request url
+  baseURL: 'http://101.132.172.26:18001/api/v1.0', // url = base url + request url
   // withCredentials: true, // send cookies when cross-domain requests
-  timeout: 5000 // request timeout
+  timeout: 10000 // request timeout
 })
 
 // request interceptor
@@ -20,6 +21,9 @@ service.interceptors.request.use(
       // ['X-Token'] is a custom headers key
       // please modify it according to the actual situation
       config.headers['X-Token'] = getToken()
+      // headers增加Authorization
+      var authorizationTokenTmp = getToken()
+      config.headers['Authorization'] = `Bearer ${authorizationTokenTmp}`
     }
     return config
   },
